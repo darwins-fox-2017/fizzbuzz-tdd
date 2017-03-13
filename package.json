@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzz-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dikyarga/fizzbuzz-tdd.git"
+  },
+  "author": "dikyarga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dikyarga/fizzbuzz-tdd/issues"
+  },
+  "homepage": "https://github.com/dikyarga/fizzbuzz-tdd#readme"
+}
