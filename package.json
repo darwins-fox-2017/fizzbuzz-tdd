@@ -1,0 +1,30 @@
+{
+  "name": "fizzbuzz-tdd",
+  "version": "1.0.0",
+  "description": "Testing function with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEi91/fizzbuzz-tdd.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "express"
+  ],
+  "author": "Eri Irawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEi91/fizzbuzz-tdd/issues"
+  },
+  "homepage": "https://github.com/MrEi91/fizzbuzz-tdd#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
