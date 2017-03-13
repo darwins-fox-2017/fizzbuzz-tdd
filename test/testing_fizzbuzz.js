@@ -1,4 +1,5 @@
-const should  = require('chai').should()
+const should    = require('chai').should()
+const converter = require('../converter')
 
 describe('Testing function fizz', () => {
   it('should return Fizz if input can multiple by 3', () => {
