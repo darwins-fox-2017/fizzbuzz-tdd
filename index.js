@@ -1,19 +1,12 @@
 function fizzBuzz(number) {
-  var temp = ''
-  if(number%15 == 0){
-    temp = "FizzBuzz"
-  }
-  else if(number%5 == 0){
-    temp = "Buzz"
-  }
-  else if(number%3 == 0){
-    temp = "Fizz"
-  }
-  else{
-    temp = number
-  }
+  var arraytemp = [[5,"Buzz"],[3,"Fizz"],[15,"FizzBuzz"]]
+  var temp = number
 
-
+  arraytemp.map(function (result) {
+    if(number%result[0] == 0){
+      temp = result[1]
+    }
+  })
   return temp
 }
 
