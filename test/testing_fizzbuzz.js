@@ -9,4 +9,8 @@ describe('Testing function fizz', () => {
   it('should return Buzz if input can multiple by 5', () => {
     converter.convert(10).should.equal("Buzz")
   })
+
+  it('should return FizzBuzz if input can multiple by 15', () => {
+    converter.convert(30).should.equal("FizzBuzz")
+  })
 })
